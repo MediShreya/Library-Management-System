@@ -33,6 +33,7 @@ public static void login() {
         }
         else { //If both the fields are present then to login the user, check wether the user exists already
             //System.out.println("Login connect");
+           
             Connection connection=connect();  //Connect to the database
             try
             {
@@ -80,3 +81,4 @@ public static void login() {
     f.setLayout(null);//using no layout managers  
     f.setVisible(true);//making the frame visible 
     f.setLocationRelativeTo(null);
+}
