@@ -457,7 +457,7 @@ public static void admin_menu() {
                           
                        }
                     int diff_int = Integer.parseInt(diff);
-                    if(ex.days&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;diff_int) { //If number of days are more than the period then calculcate fine
+                    if(ex.days&amp) { //If number of days are more than the period then calculcate fine
                          
                         //System.out.println(ex.days);
                         int fine = (ex.days-diff_int)*10; //fine for every day after the period is Rs 10.
